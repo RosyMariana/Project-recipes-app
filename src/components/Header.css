@@ -1,0 +1,84 @@
+.header-container {
+  display: inline-block;
+}
+
+.header {
+  background: #c4c4c4;
+  display: flex;
+  flex-flow: row nowrap;
+  height: 60px;
+  justify-content: space-around;
+  top: 0;
+  width: 354px;
+}
+
+.profile-top-btn {
+  background: none;
+  background-image: url('../images/profileIcon.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 15px;
+}
+
+.search-top-btn {
+  background: none;
+  background-image: url('../images/searchIcon.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 15px;
+}
+
+.search-bar {
+  background: #f3f1f1;
+  height: 31px;
+  margin-left: 3%;
+  margin-top: 3%;
+  width: 342px;
+}
+
+.input-search {
+  background: #f3f1f1;
+  border: 1px solid #050505;
+  height: 31px;
+  width: 342px;
+}
+
+.ingredient-search-radio {
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+.name-search-radio {
+  margin-left: 4%;
+}
+
+.first-letter-search-radio {
+  margin-left: 4%;
+}
+
+.search-btn {
+  background: #c4c4c4;
+  margin-left: 8%;
+}
+
+.category-filter-buttons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 6%;
+  padding: 0;
+}
+
+.each-button-category {
+  background: #c4c4c4;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  font-size: 16px;
+  margin-bottom: 2%;
+  padding: 14px 15px;
+}

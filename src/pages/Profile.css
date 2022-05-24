@@ -1,0 +1,31 @@
+.profile-container {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 10%;
+}
+
+.profile-email {
+  font-size: 20px;
+}
+
+.profile-done-btn {
+  background: #c4c4c4;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 3%;
+  width: 150px;
+}
+
+.profile-favorite-btn {
+  background: #c4c4c4;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 3%;
+  width: 150px;
+}
+
+.profile-logout-btn {
+  background: #c4c4c4;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 3%;
+  width: 150px;
+}

@@ -1,0 +1,16 @@
+.card-recipes-div {
+  background-color: rgba(168, 165, 165, 0.876);
+  border: 0.2px solid rgba(168, 165, 165, 0.876);
+  border-radius: 12px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.card-recipes-btn {
+  background: none;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 320px;
+}
+

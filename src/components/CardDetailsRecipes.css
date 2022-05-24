@@ -1,0 +1,125 @@
+.bodyFake {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  margin-left: 55%;
+  max-height: 100%;
+  max-width: 100%;
+  place-items: center;
+}
+
+.bodyFake2 {
+  display: grid;
+  margin-left: -200%;
+  max-height: 50%;
+  max-width: 50%;
+  place-items: left;
+}
+
+.share-btn {
+  background-color: rgba(11, 11, 206, 0.791);
+  background-image: url('../images/shareIcon.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px;
+  padding: 20px 25px;
+}
+
+.fav-btn-white {
+  background-color: rgb(200, 26, 26);
+  background-image: url('../images/whiteHeartIcon.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px;
+  padding: 20px 25px;
+  width: 10px;
+}
+
+.fav-btn-black {
+  background-color: rgb(200, 26, 26);
+  background-image: url('../images/blackHeartIcon.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px;
+  padding: 20px 25px;
+}
+
+.recomendation {
+  justify-items: center;
+  width: 20%;
+}
+
+.recomendation2 {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.card {
+  flex: none;
+  scroll-snap-align: start;
+  width: 50%;
+}
+
+.btn-start {
+  border-radius: 12px;
+  bottom: 5%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: small;
+  height: 5vh;
+  margin-left: -3%;
+  padding: 0% 2%;
+  padding-top: 0%;
+  position: fixed;
+  top: 94%;
+  width: 30vh;
+}
+
+img {
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  object-fit: cover;
+}
+
+.ingredients {
+  background-color: rgba(193, 187, 187, 0.7);
+  border: 1px solid rgba(193, 187, 187, 0.7);
+  border-radius: 4px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-decoration: none;
+  width: 500px;
+}
+
+.instructions {
+  background-color: rgba(193, 187, 187, 0.7);
+  border: 1px solid rgba(193, 187, 187, 0.7);
+  border-radius: 4px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 500px;
+}
+
+.ingredients-li {
+  list-style-type: none;
+
+}
+
+.imgs {
+  background-color: rgba(193, 187, 187, 0.7);
+  border: 1px solid rgba(193, 187, 187, 0.7);
+  border-radius: 4px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-height: 335px;
+  max-width: 305px;
+}
+
+.foods-details {
+  margin-left: 55%;
+}

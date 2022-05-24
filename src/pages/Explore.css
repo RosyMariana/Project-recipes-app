@@ -1,0 +1,51 @@
+.explore-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-explore-foods {
+  background: #c4c4c4;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 3%;
+  margin-top: 10%;
+}
+
+.btn-explore-drinks {
+  background: #c4c4c4;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 10%;
+}
+
+.explore-foods-container {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 10%;
+}
+
+.explore-drinks-container {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 10%;
+}
+
+.explore-by-ingredient {
+  background: #c4c4c4;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 3%;
+  width: 150px;
+}
+
+.explore-by-nationality {
+  background: #c4c4c4;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 3%;
+  width: 150px;
+}
+
+.explore-surprise {
+  background: #c4c4c4;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 150px;
+}
